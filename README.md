@@ -17,10 +17,10 @@
 
 <!-- markdownlint-disable MD033 MD041 -->
 
-<img src="svgs/discord.svg" alt="" height="16" width="16" > Discord: adamekka<br>
-<a href="https://github.com/Adamekka"><img src="svgs/github.svg" alt="" height="16" width="16"> GitHub</a><br>
-<a href="https://signal.me/#eu/_Zmgzf8MgMvXLs9dQR8jT2rLWAYFSnz9SC2SKM15ENyaGr05UIBAk6IAO3vwPYuu"><img src="svgs/signal.svg" alt="" height="16" width="16"> Signal</a><br>
-<a href="https://t.me/Adamekka"><img src="svgs/telegram.svg" alt="" height="16" width="16"> Telegram</a>
+<img src="svgs/discord.svg" alt="" height="14" width="14"> Discord: adamekka  
+<img src="svgs/github.svg" alt="" height="14" width="14"> <a href="https://github.com/Adamekka">GitHub</a>  
+<img src="svgs/signal.svg" alt="" height="14" width="14"> <a href="https://signal.me/#eu/_Zmgzf8MgMvXLs9dQR8jT2rLWAYFSnz9SC2SKM15ENyaGr05UIBAk6IAO3vwPYuu">Signal</a>  
+<img src="svgs/telegram.svg" alt="" height="14" width="14"> <a href="https://t.me/Adamekka">Telegram</a>
 
 <!-- CONTACTS:END -->
 
