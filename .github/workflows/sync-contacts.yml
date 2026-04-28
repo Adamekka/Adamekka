@@ -21,6 +21,22 @@ jobs:
                   https://raw.githubusercontent.com/Adamekka/contacts/main/contacts.md
                   -o /tmp/contacts.md
 
+            - name: Checkout contacts repository
+              uses: actions/checkout@v6
+              with:
+                  repository: Adamekka/contacts
+                  ref: main
+                  path: .contacts-source
+
+            - name: Sync SVGs
+              run: |
+                  if [ -d .contacts-source/svgs ]; then
+                      mkdir -p svgs
+                      rsync -a --delete .contacts-source/svgs/ svgs/
+                  else
+                      rm -rf svgs
+                  fi
+
             - name: Replace between markers
               run: |
                   python3 <<'PY'
@@ -40,5 +56,8 @@ jobs:
                   git config user.name  'github-actions[bot]'
                   git config user.email 'github-actions[bot]@users.noreply.github.com'
                   git add README.md
+                  if [ -d svgs ] || [ -n "$(git ls-files svgs)" ]; then
+                      git add -A svgs
+                  fi
                   git diff --cached --quiet || git commit -m 'Sync contacts'
                   git push
