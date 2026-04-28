@@ -26,6 +26,8 @@
 
 ---
 
-<img align="top" width="50%" src="./profile/stats.svg" alt="Adamekka's GitHub stats">
-&nbsp;
-<img align="top" width="40%" src="./profile/top-langs.svg" alt="Adamekka's Top Langs">
+<div align="center">
+    <img align="top" width="50%" src="./profile/stats.svg" alt="Adamekka's GitHub stats">
+    &nbsp;
+    <img align="top" width="40%" src="./profile/top-langs.svg" alt="Adamekka's Top Langs">
+</div>
