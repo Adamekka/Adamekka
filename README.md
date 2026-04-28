@@ -15,12 +15,12 @@
 
 <!-- CONTACTS:START -->
 
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD033 MD041 -->
 
-Discord: adamekka  
-[GitHub](https://github.com/Adamekka)  
-[Signal](https://signal.me/#eu/_Zmgzf8MgMvXLs9dQR8jT2rLWAYFSnz9SC2SKM15ENyaGr05UIBAk6IAO3vwPYuu)  
-[Telegram](https://t.me/Adamekka)
+<img src="svgs/discord.svg" alt="" height="16" width="16" > Discord: adamekka<br>
+<a href="https://github.com/Adamekka"><img src="svgs/github.svg" alt="" height="16" width="16"> GitHub</a><br>
+<a href="https://signal.me/#eu/_Zmgzf8MgMvXLs9dQR8jT2rLWAYFSnz9SC2SKM15ENyaGr05UIBAk6IAO3vwPYuu"><img src="svgs/signal.svg" alt="" height="16" width="16"> Signal</a><br>
+<a href="https://t.me/Adamekka"><img src="svgs/telegram.svg" alt="" height="16" width="16"> Telegram</a>
 
 <!-- CONTACTS:END -->
 
