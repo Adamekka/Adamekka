@@ -30,7 +30,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&theme=nord&exclude_repo=DiscordTheme,ds-project,dungeon-looter,dwm,fish,mpv,nvim,nvim-old,opencode,skj,skj-project,st,std,uro,uro-project,usage&langs_count=1000
+          options: username=${{ github.repository_owner }}&theme=nord&exclude_repo=DiscordTheme,ds-project,dungeon-looter,dwm,fish,mpv,nvim,nvim-old,opencode,skj,skj-project,spins-backend,spins-frontend,st,std,uro,uro-project,usage&langs_count=1000
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
