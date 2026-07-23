@@ -14,7 +14,7 @@ jobs:
         permissions:
             contents: write
         steps:
-            - uses: actions/checkout@v6
+            - uses: actions/checkout@v7
 
             - name: Fetch contacts
               run: curl -sSL
@@ -22,7 +22,7 @@ jobs:
                   -o /tmp/contacts.md
 
             - name: Checkout contacts repository
-              uses: actions/checkout@v6
+              uses: actions/checkout@v7
               with:
                   repository: Adamekka/contacts
                   ref: main
