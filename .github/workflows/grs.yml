@@ -31,7 +31,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1.2.0
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&theme=nord
+          options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&theme=nord&exclude_repo=Anomalous-Coffee-Machine,Assassin-s-Creed,BLACK-SOULS,CorpseParty,cult-of-the-lamb,DevilMayCry,Dolphin,DuckStation,Gopher64,LordOfTheMysteriesLN,MiSideFull,MonogatariLN,MushokuTenseiLN,nunholy,omori,omori_old,PCSX2,PPSSPP,RetroArch,ReZeroLN,RPCS3,shadPS4
           path: profile/stats.svg
           token: ${{ secrets.README_STATS_TOKEN }}
 
