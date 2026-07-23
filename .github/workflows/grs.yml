@@ -39,7 +39,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1.2.0
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&theme=nord&exclude_repo=apps-mcu-lcd,DiscordTheme,ds-project,dungeon-looter,dwm,fish,java2,mpv,notes,nur-packages,nur-packages-old,nvim,nvim-old,opencode,pebor-nvim,SecureVPN,skj,skj-project,spins-backend,spins-frontend,st,std,uro,uro-project,usage,usage-old&langs_count=1000
+          options: username=${{ github.repository_owner }}&theme=nord&exclude_repo=apps-mcu-lcd,DiscordTheme,ds-project,dungeon-looter,dwm,fish,java2,mpv,notes,nur-packages,nur-packages-old,nvim,nvim-old,opencode,pebor-nvim,SecureVPN,skj,skj-project,spins-backend,spins-frontend,st,std,stoneblock-cpp,uro,uro-project,usage,usage-old&langs_count=1000
           path: profile/top-langs.svg
           token: ${{ secrets.README_STATS_TOKEN }}
 
