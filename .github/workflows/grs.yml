@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
 
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1.2.0
+        uses: readme-tools/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&theme=nord&exclude_repo=Anomalous-Coffee-Machine,Assassin-s-Creed,BLACK-SOULS,CorpseParty,cult-of-the-lamb,DevilMayCry,Dolphin,DuckStation,Gopher64,LordOfTheMysteriesLN,MiSideFull,MonogatariLN,MushokuTenseiLN,nunholy,omori,omori_old,PCSX2,PPSSPP,RetroArch,ReZeroLN,RPCS3,SaveScummer,shadPS4,TheBook
@@ -36,7 +36,7 @@ jobs:
           token: ${{ secrets.README_STATS_TOKEN }}
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1.2.0
+        uses: readme-tools/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&theme=nord&exclude_repo=apps-mcu-lcd,DiscordTheme,ds-project,dungeon-looter,dwm,fish,java2,mpv,notes,nur-packages,nur-packages-old,nvim,nvim-old,opencode,pebor-nvim,SecureVPN,skj,skj-project,spins-backend,spins-frontend,st,std,stoneblock-cpp,uro,uro-project,usage,usage-old&langs_count=1000
