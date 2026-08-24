@@ -34,103 +34,23 @@ jobs:
         uses: readme-tools/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&theme=nord&exclude_repo=Anomalous-Coffee-Machine,Assassin-s-Creed,BLACK-SOULS,CorpseParty,cult-of-the-lamb,DevilMayCry,Dolphin,DuckStation,Gopher64,LordOfTheMysteriesLN,MiSideFull,MonogatariLN,MushokuTenseiLN,nunholy,omori,omori_old,PCSX2,PPSSPP,RetroArch,ReZeroLN,RPCS3,SaveScummer,shadPS4,TheBook
+          options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&theme=nord&exclude_repo=Anomalous-Coffee-Machine,Assassin-s-Creed,BLACK-SOULS,CorpseParty,cult-of-the-lamb,DELTARUNE,DevilMayCry,Dolphin,DuckStation,Gopher64,LordOfTheMysteriesLN,MiSideFull,MonogatariLN,MushokuTenseiLN,nunholy,omori,omori_old,PCSX2,PPSSPP,RetroArch,ReZeroLN,RPCS3,SaveScummer,shadPS4,TheBook
           path: profile/stats.svg
           token: ${{ secrets.README_STATS_TOKEN }}
 
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&theme=nord&exclude_repo=${{ env.TOP_LANGS_EXCLUDED_REPOS }}&langs_count=1000
-          path: profile/top-langs.svg
-          token: ${{ secrets.README_STATS_TOKEN }}
+          node-version: 24
 
-      - name: Generate language project map
+      - name: Test language stats generator
+        run: node --test .github/scripts/generate-language-stats.test.mjs
+
+      - name: Generate language stats
         env:
-          GH_TOKEN: ${{ secrets.README_STATS_TOKEN }}
-        run: |
-          set -euo pipefail
-
-          repository_owner="${{ github.repository_owner }}"
-          token_owner=$(gh api user --jq '.login')
-          if [[ "${token_owner,,}" != "${repository_owner,,}" ]]; then
-            echo "::error::README_STATS_TOKEN belongs to $token_owner, not $repository_owner"
-            exit 1
-          fi
-
-          repos_file="$RUNNER_TEMP/language-project-repositories.tsv"
-          pairs_file="$RUNNER_TEMP/language-projects.tsv"
-          gh api --paginate "/user/repos?affiliation=owner&visibility=all&per_page=100" \
-            --jq '.[] | select(.fork == false) | [.full_name, .name] | @tsv' > "$repos_file"
-
-          if [[ ! -s "$repos_file" ]]; then
-            echo "::error::GitHub returned no owned non-fork repositories"
-            exit 1
-          fi
-
-          : > "$pairs_file"
-
-          while IFS=$'\t' read -r full_name project; do
-            if [[ ",$TOP_LANGS_EXCLUDED_REPOS," == *",$project,"* ]]; then
-              continue
-            fi
-
-            gh api "repos/$full_name/languages" |
-              jq -r --arg project "$project" '
-                to_entries[]
-                | [.key, $project, .value]
-                | @tsv
-              ' >> "$pairs_file"
-          done < "$repos_file"
-
-          if [[ ! -s "$pairs_file" ]]; then
-            echo "::error::GitHub returned no language data for included repositories"
-            exit 1
-          fi
-
-          jq -Rnr '
-            def format_percentage:
-              (.percentage_hundredths / 100 | floor | tostring)
-              + "."
-              + ((.percentage_hundredths % 100 | tostring) | if length == 1 then "0" + . else . end)
-              + "%";
-
-            [
-              inputs
-              | split("\t")
-              | {
-                  language: .[0],
-                  project: .[1],
-                  bytes: (.[2] | tonumber)
-                }
-            ]
-            | group_by(.language)
-            | map(
-                (map(.bytes) | add) as $language_total
-                | {
-                    language: .[0].language,
-                    projects: (
-                      [
-                        .[]
-                        | {
-                            project,
-                            # Round each project contribution to hundredths of one percent.
-                            percentage_hundredths: ((.bytes * 10000 / $language_total) | round)
-                          }
-                      ]
-                      | sort_by([(.project | ascii_downcase), .project])
-                    )
-                  }
-              )
-            | sort_by([(.language | ascii_downcase), .language])
-            | map(
-                .language
-                + "\n"
-                + (.projects | map("  " + .project + " " + format_percentage) | join("\n"))
-              )
-            | join("\n\n")
-          ' "$pairs_file" > profile/languages.txt
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          README_STATS_TOKEN: ${{ secrets.README_STATS_TOKEN }}
+        run: node .github/scripts/generate-language-stats.mjs
 
       - name: Commit generated stats
         run: |
