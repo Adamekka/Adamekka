@@ -1,275 +1,275 @@
 Assembly
-  apps-asm
-  h
+  apps-asm 54.49%
+  h 32.64%
 
 Batchfile
-  powershell
+  powershell 19.18%
 
 Brainfuck
-  brainfuck-examples
+  brainfuck-examples 77.55%
 
 C
-  apps-asm
-  BulletsVsBullets
-  codewars
-  h
-  krumpatch
-  MIT_T3A
-  pulseWM_C
-  tetris
-  upr
+  apps-asm 31.67%
+  BulletsVsBullets 0.18%
+  codewars 17.90%
+  h 59.45%
+  krumpatch 2.46%
+  MIT_T3A 100.00%
+  pulseWM_C 3.75%
+  tetris 98.76%
+  upr 98.43%
 
 C#
-  AdventureGame
-  jumping-shapes
-  prg-maturita
-  win-forms-test-1
+  AdventureGame 100.00%
+  jumping-shapes 100.00%
+  prg-maturita 100.00%
+  win-forms-test-1 100.00%
 
 C++
-  alg-project
-  alg2-project
-  alg2-project-6
-  apps-cuda
-  codewars
-  goon
-  krumpatch
-  mc
-  oop
-  oop-project
-  SDL2test
-  smart-light-mcu
-  vne
+  alg-project 93.95%
+  alg2-project 57.72%
+  alg2-project-6 98.19%
+  apps-cuda 49.77%
+  codewars 32.97%
+  goon 97.55%
+  krumpatch 56.16%
+  mc 53.66%
+  oop 89.78%
+  oop-project 91.96%
+  SDL2test 100.00%
+  smart-light-mcu 100.00%
+  vne 95.32%
 
 CMake
-  alg-project
-  alg2-project
-  alg2-project-6
-  goon
-  krumpatch
-  mc
-  oop
-  oop-project
-  tetris
-  vne
+  alg-project 6.05%
+  alg2-project 7.38%
+  alg2-project-6 1.81%
+  goon 2.45%
+  krumpatch 19.08%
+  mc 14.18%
+  oop 9.82%
+  oop-project 8.04%
+  tetris 0.95%
+  vne 2.51%
 
 CSS
-  2048
-  bleu
-  blog
-  dotfile-manager
-  EdiblesSite
-  gameoflife
-  socials-tag-web
-  tamz
-  tamz-react
-  tower-of-hanoi
-  waybar
+  2048 38.48%
+  bleu 14.43%
+  blog 4.58%
+  dotfile-manager 0.51%
+  EdiblesSite 35.60%
+  gameoflife 38.34%
+  socials-tag-web 1.67%
+  tamz 49.59%
+  tamz-react 25.29%
+  tower-of-hanoi 1.12%
+  waybar 100.00%
 
 Cuda
-  apps-cuda
+  apps-cuda 33.16%
 
 Dockerfile
-  dotfile-manager
-  mpr-install
-  swift-chat
+  dotfile-manager 0.38%
+  mpr-install 8.17%
+  swift-chat 45.63%
 
 GDScript
-  AstroExtract
-  bullet-hell-game
-  bullets-vs-bullets
-  luminexia
-  MagicSpellsAndMonsters
-  survive
+  AstroExtract 97.08%
+  bullet-hell-game 100.00%
+  bullets-vs-bullets 97.59%
+  luminexia 100.00%
+  MagicSpellsAndMonsters 83.66%
+  survive 100.00%
 
 GLSL
-  cava
+  cava 100.00%
 
 Go
-  codewars
+  codewars 11.34%
 
 Haskell
-  haskell
-  xmobar
-  xmonad
+  haskell 100.00%
+  xmobar 100.00%
+  xmonad 100.00%
 
 HTML
-  2048
-  bleu
-  blog
-  dotfile-manager
-  EdiblesSite
-  gameoflife
-  jumping-shapes-asset-creator
-  SaveScummer
-  socials-tag-web
-  tamz
-  tamz-react
+  2048 10.65%
+  bleu 17.43%
+  blog 95.42%
+  dotfile-manager 0.74%
+  EdiblesSite 47.19%
+  gameoflife 10.58%
+  jumping-shapes-asset-creator 7.05%
+  SaveScummer 26.95%
+  socials-tag-web 1.61%
+  tamz 1.52%
+  tamz-react 3.14%
 
 Java
-  bullet-hell
-  codewars
-  customcommands
-  hytale-adamekka-mods
-  pingpongchat
+  bullet-hell 100.00%
+  codewars 10.49%
+  customcommands 95.98%
+  hytale-adamekka-mods 100.00%
+  pingpongchat 100.00%
 
 JavaScript
-  2048
-  bleu
-  codewars
-  dotfile-manager
-  EdiblesSite
-  gameoflife
-  jumping-shapes-asset-creator
-  socials-tag-web
-  status
-  tamz
-  tamz-react
-  tower-of-hanoi
+  2048 6.65%
+  bleu 11.52%
+  codewars 4.18%
+  dotfile-manager 0.26%
+  EdiblesSite 17.21%
+  gameoflife 6.61%
+  jumping-shapes-asset-creator 18.28%
+  socials-tag-web 7.64%
+  status 100.00%
+  tamz 4.36%
+  tamz-react 2.04%
+  tower-of-hanoi 74.69%
 
 Lua
-  hypr
+  hypr 100.00%
 
 Makefile
-  apps-asm
-  apps-cuda
-  asf-start
-  BulletsVsBullets
-  dotfile-manager
-  h
-  mpr-install
-  pulseWM_C
-  whenthe
+  apps-asm 13.84%
+  apps-cuda 8.61%
+  asf-start 69.31%
+  BulletsVsBullets 9.23%
+  dotfile-manager 0.75%
+  h 5.85%
+  mpr-install 1.47%
+  pulseWM_C 80.97%
+  whenthe 4.57%
 
 Nix
-  apps-cuda
-  beeep
-  dotfile-manager
-  krumpatch
-  mc
-  nixos
-  vne
-  wshm
+  apps-cuda 6.07%
+  beeep 100.00%
+  dotfile-manager 1.55%
+  krumpatch 22.30%
+  mc 11.83%
+  nixos 100.00%
+  vne 1.17%
+  wshm 13.14%
 
 Objective-C
-  BulletsVsBullets
+  BulletsVsBullets 0.61%
 
 PLSQL
-  dbs-maturita
+  dbs-maturita 100.00%
 
 PowerShell
-  powershell
+  powershell 80.82%
 
 Python
-  alg2-project
-  apps-cuda
-  mc
+  alg2-project 34.91%
+  apps-cuda 2.40%
+  mc 20.32%
 
 Ruby
-  homebrew-tap
+  homebrew-tap 100.00%
 
 Rust
-  AdventOfCode
-  aoc2015
-  aoc2024
-  aoc2025
-  asgrl
-  banana
-  bevy-fps-counter
-  bleu
-  brainfuck-examples
-  bullets-vs-bullets-rs
-  BulletsVsBullets
-  chess-rs
-  deepl-translate
-  dotfile-manager
-  gl
-  hlang
-  leetcode
-  linear-git-history
-  mpr-rs
-  mytools
-  ordinal-type
-  osu-pp
-  phoenix-script
-  pulseWM
-  save-history
-  smallest-enclosing-square
-  stoneblock
-  stoneblock-rs
-  sugoi
-  swi
-  tauri-test
-  tetris-rs
-  tge
-  waypulse
-  wshm
+  AdventOfCode 100.00%
+  aoc2015 100.00%
+  aoc2024 100.00%
+  aoc2025 100.00%
+  asgrl 100.00%
+  banana 100.00%
+  bevy-fps-counter 100.00%
+  bleu 15.13%
+  brainfuck-examples 22.45%
+  bullets-vs-bullets-rs 77.56%
+  BulletsVsBullets 72.76%
+  chess-rs 100.00%
+  deepl-translate 100.00%
+  dotfile-manager 85.73%
+  gl 100.00%
+  hlang 100.00%
+  leetcode 100.00%
+  linear-git-history 100.00%
+  mpr-rs 100.00%
+  mytools 100.00%
+  ordinal-type 100.00%
+  osu-pp 100.00%
+  phoenix-script 100.00%
+  pulseWM 97.28%
+  save-history 100.00%
+  smallest-enclosing-square 100.00%
+  stoneblock 100.00%
+  stoneblock-rs 100.00%
+  sugoi 100.00%
+  swi 36.02%
+  tauri-test 68.86%
+  tetris-rs 100.00%
+  tge 100.00%
+  waypulse 100.00%
+  wshm 84.88%
 
 SCSS
-  socials-tag-web
+  socials-tag-web 24.93%
 
 Shell
-  asf-start
-  AstroExtract
-  bullets-vs-bullets
-  bullets-vs-bullets-rs
-  BulletsVsBullets
-  customcommands
-  discord-game-list
-  dotfile-manager
-  Game
-  h
-  MagicSpellsAndMonsters
-  mpr-install
-  my-keyboard-layout_cz
-  oop
-  pulseWM
-  pulseWM_C
-  RPCS3-savestates
-  school-bash
-  scripts
-  tetris
-  upr
-  vne
-  whenthe
-  wshm
+  asf-start 30.69%
+  AstroExtract 2.92%
+  bullets-vs-bullets 2.41%
+  bullets-vs-bullets-rs 22.44%
+  BulletsVsBullets 17.21%
+  customcommands 4.02%
+  discord-game-list 100.00%
+  dotfile-manager 0.10%
+  Game 100.00%
+  h 2.06%
+  MagicSpellsAndMonsters 16.34%
+  mpr-install 90.36%
+  my-keyboard-layout_cz 100.00%
+  oop 0.41%
+  pulseWM 2.72%
+  pulseWM_C 15.28%
+  RPCS3-savestates 100.00%
+  school-bash 100.00%
+  scripts 100.00%
+  tetris 0.29%
+  upr 1.57%
+  vne 1.00%
+  whenthe 95.43%
+  wshm 1.98%
 
 Svelte
-  2048
-  bleu
-  dotfile-manager
-  gameoflife
-  jumping-shapes-asset-creator
-  socials-tag-web
-  tamz
+  2048 35.04%
+  bleu 4.01%
+  dotfile-manager 8.00%
+  gameoflife 35.35%
+  jumping-shapes-asset-creator 70.67%
+  socials-tag-web 23.92%
+  tamz 41.29%
 
 Swift
-  codewars
-  FlashCards
-  NotesUIKit
-  SaveHistory
-  swift-calc
-  swift-chat
-  ViewKit
-  yet-another-notes-app
+  codewars 23.12%
+  FlashCards 100.00%
+  NotesUIKit 100.00%
+  SaveHistory 100.00%
+  swift-calc 100.00%
+  swift-chat 54.37%
+  ViewKit 100.00%
+  yet-another-notes-app 100.00%
 
 TypeScript
-  2048
-  battle-pass-calc
-  bleu
-  config-files
-  dotfile-manager
-  gameoflife
-  jumping-shapes-asset-creator
-  socials-tag-web
-  tamz
-  tamz-react
-  tauri-test
-  tower-of-hanoi
+  2048 9.19%
+  battle-pass-calc 100.00%
+  bleu 37.47%
+  config-files 100.00%
+  dotfile-manager 1.98%
+  gameoflife 9.13%
+  jumping-shapes-asset-creator 4.00%
+  socials-tag-web 40.24%
+  tamz 3.24%
+  tamz-react 69.52%
+  tauri-test 31.14%
+  tower-of-hanoi 24.19%
 
 Typst
-  apps-zkouska
-  dim-project
-  pos-projekt
-  SaveScummer
-  swi
-  TheBook
+  apps-zkouska 100.00%
+  dim-project 100.00%
+  pos-projekt 100.00%
+  SaveScummer 73.05%
+  swi 63.98%
+  TheBook 100.00%
