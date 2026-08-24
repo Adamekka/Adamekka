@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
+      STATS_EXCLUDED_REPOS: Anomalous-Coffee-Machine,Assassin-s-Creed,BLACK-SOULS,CorpseParty,cult-of-the-lamb,DELTARUNE,DevilMayCry,Dolphin,DuckStation,Gopher64,LordOfTheMysteriesLN,MiSideFull,MonogatariLN,MushokuTenseiLN,nunholy,omori,omori_old,PCSX2,PPSSPP,RetroArch,ReZeroLN,RPCS3,SaveScummer,shadPS4,TheBook
       TOP_LANGS_EXCLUDED_REPOS: apps-mcu-lcd,DiscordTheme,ds-project,dungeon-looter,dwm,fish,java2,mpv,notes,nur-packages,nur-packages-old,nvim,nvim-old,opencode,pebor-nvim,SecureVPN,skj,skj-project,spins-backend,spins-frontend,st,std,stoneblock-cpp,uro,uro-project,usage,usage-old
 
     permissions:
@@ -34,7 +35,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&theme=nord&exclude_repo=Anomalous-Coffee-Machine,Assassin-s-Creed,BLACK-SOULS,CorpseParty,cult-of-the-lamb,DELTARUNE,DevilMayCry,Dolphin,DuckStation,Gopher64,LordOfTheMysteriesLN,MiSideFull,MonogatariLN,MushokuTenseiLN,nunholy,omori,omori_old,PCSX2,PPSSPP,RetroArch,ReZeroLN,RPCS3,SaveScummer,shadPS4,TheBook
+          options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&theme=nord&exclude_repo=${{ env.STATS_EXCLUDED_REPOS }}
           path: profile/stats.svg
           token: ${{ secrets.README_STATS_TOKEN }}
 
@@ -43,8 +44,8 @@ jobs:
         with:
           node-version: 24
 
-      - name: Test language stats generator
-        run: node --test .github/scripts/generate-language-stats.test.mjs
+      - name: Test profile stats generators
+        run: node --test .github/scripts/*.test.mjs
 
       - name: Generate language stats
         env:
@@ -52,11 +53,18 @@ jobs:
           README_STATS_TOKEN: ${{ secrets.README_STATS_TOKEN }}
         run: node .github/scripts/generate-language-stats.mjs
 
+      - name: Generate repository stargazers
+        env:
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          README_STATS_TOKEN: ${{ secrets.README_STATS_TOKEN }}
+          STATS_EXCLUDED_REPOS: ${{ env.STATS_EXCLUDED_REPOS }}
+        run: node .github/scripts/generate-repository-stargazers.mjs
+
       - name: Commit generated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg profile/languages.txt
+          git add profile/*.svg profile/languages.txt profile/starred.txt
           if git diff --cached --quiet; then
             exit 0
           fi

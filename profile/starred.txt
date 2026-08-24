@@ -1,0 +1,52 @@
+rofi (4)
+  Muchori
+  Ninso112
+  PoisonIsBestType
+  vbalien
+
+VideoFrames (4)
+  heestand-xyz
+  KS1019
+  tkersey
+  yukiny0811
+
+bevy-fps-counter (3)
+  Nointoter
+  Rust-Ninja-Sabi
+  sprayman1999
+
+fish (3)
+  21tushar
+  MrAdikYT
+  Suston
+
+mpr-install (3)
+  [3 stargazer usernames unavailable while archived]
+
+dotfile-manager (2)
+  [2 stargazer usernames unavailable while archived]
+
+waybar (2)
+  cjrusko
+  greenm01
+
+chess-rs (1)
+  [1 stargazer username unavailable while archived]
+
+goon (1)
+  LPbigFish
+
+luminexia (1)
+  [1 stargazer username unavailable while archived]
+
+pulseWM (1)
+  [1 stargazer username unavailable while archived]
+
+usage (1)
+  OndrejKanak
+
+vne (1)
+  [1 stargazer username unavailable while archived]
+
+whenthe (1)
+  TomixUG
