@@ -78,10 +78,8 @@ jobs:
 
             gh api "repos/$full_name/languages" |
               jq -r --arg project "$project" '
-                (add) as $total
-                | to_entries[]
-                # Round to hundredths before TSV serialization so trailing zeroes can be restored later.
-                | [.key, $project, ((.value * 10000 / $total) | round)]
+                to_entries[]
+                | [.key, $project, .value]
                 | @tsv
               ' >> "$pairs_file"
           done < "$repos_file"
@@ -104,17 +102,27 @@ jobs:
               | {
                   language: .[0],
                   project: .[1],
-                  percentage_hundredths: (.[2] | tonumber)
+                  bytes: (.[2] | tonumber)
                 }
             ]
             | group_by(.language)
-            | map({
-                language: .[0].language,
-                projects: (
-                  [.[] | { project, percentage_hundredths }]
-                  | sort_by([(.project | ascii_downcase), .project])
-                )
-              })
+            | map(
+                (map(.bytes) | add) as $language_total
+                | {
+                    language: .[0].language,
+                    projects: (
+                      [
+                        .[]
+                        | {
+                            project,
+                            # Round each project contribution to hundredths of one percent.
+                            percentage_hundredths: ((.bytes * 10000 / $language_total) | round)
+                          }
+                      ]
+                      | sort_by([(.project | ascii_downcase), .project])
+                    )
+                  }
+              )
             | sort_by([(.language | ascii_downcase), .language])
             | map(
                 .language
