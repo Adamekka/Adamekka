@@ -117,13 +117,16 @@ export function generateLanguageOutputs({
   const text = `${languages
     .map((language) => {
       const projects = language.projects
-        .toSorted((left, right) => compareNames(left.name, right.name))
+        .toSorted(
+          (left, right) =>
+            right.bytes - left.bytes || compareNames(left.name, right.name),
+        )
         .map(
           (project) =>
             `  ${project.name} ${formatPercentage(project.bytes)}`,
         )
         .join("\n");
-      return `${language.name}\n${projects}`;
+      return `${language.name} ${formatPercentage(language.bytes)}\n${projects}`;
     })
     .join("\n\n")}\n`;
 

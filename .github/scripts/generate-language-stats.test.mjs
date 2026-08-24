@@ -45,11 +45,11 @@ test("uses one top-language denominator for the card and project contributions",
   assert.equal(
     text,
     [
-      "C++",
-      "  Alpha 16.67%",
+      "C++ 66.67%",
       "  beta 50.00%",
+      "  Alpha 16.67%",
       "",
-      "C",
+      "C 33.33%",
       "  beta 33.33%",
       "",
     ].join("\n"),
@@ -66,6 +66,10 @@ test("sorts ties deterministically and escapes language names in SVG", () => {
         "A&B": { bytes: 10, color: "not-a-color" },
       }),
       repository("Alpha", {
+        "A&B": { bytes: 10, color: "not-a-color" },
+        alpha: { bytes: 10, color: "#123abc" },
+      }),
+      repository("beta", {
         alpha: { bytes: 10, color: "#123abc" },
       }),
     ],
@@ -79,7 +83,10 @@ test("sorts ties deterministically and escapes language names in SVG", () => {
   );
   assert.match(svg, />A&amp;B<\/text>/);
   assert.match(svg, /fill="#858585"/);
-  assert.match(text, /^A&B\n  zeta 50\.00%/);
+  assert.match(
+    text,
+    /^A&B 50\.00%\n  Alpha 25\.00%\n  zeta 25\.00%/,
+  );
 });
 
 test("rejects invalid byte counts and empty output", () => {
