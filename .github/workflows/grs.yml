@@ -77,7 +77,13 @@ jobs:
             fi
 
             gh api "repos/$full_name/languages" |
-              jq -r --arg project "$project" 'keys[] | [., $project] | @tsv' >> "$pairs_file"
+              jq -r --arg project "$project" '
+                (add) as $total
+                | to_entries[]
+                # Round to hundredths before TSV serialization so trailing zeroes can be restored later.
+                | [.key, $project, ((.value * 10000 / $total) | round)]
+                | @tsv
+              ' >> "$pairs_file"
           done < "$repos_file"
 
           if [[ ! -s "$pairs_file" ]]; then
@@ -86,14 +92,35 @@ jobs:
           fi
 
           jq -Rnr '
-            [inputs | split("\t") | { language: .[0], project: .[1] }]
+            def format_percentage:
+              (.percentage_hundredths / 100 | floor | tostring)
+              + "."
+              + ((.percentage_hundredths % 100 | tostring) | if length == 1 then "0" + . else . end)
+              + "%";
+
+            [
+              inputs
+              | split("\t")
+              | {
+                  language: .[0],
+                  project: .[1],
+                  percentage_hundredths: (.[2] | tonumber)
+                }
+            ]
             | group_by(.language)
             | map({
                 language: .[0].language,
-                projects: ([.[].project] | unique | sort_by([ascii_downcase, .]))
+                projects: (
+                  [.[] | { project, percentage_hundredths }]
+                  | sort_by([(.project | ascii_downcase), .project])
+                )
               })
             | sort_by([(.language | ascii_downcase), .language])
-            | map(.language + "\n" + (.projects | map("  " + .) | join("\n")))
+            | map(
+                .language
+                + "\n"
+                + (.projects | map("  " + .project + " " + format_percentage) | join("\n"))
+              )
             | join("\n\n")
           ' "$pairs_file" > profile/languages.txt
 
