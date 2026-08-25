@@ -13,7 +13,7 @@ C++ 24.12%
   codewars 0.16%
   SDL2test 0.13%
 
-Rust 23.60%
+Rust 23.59%
   dotfile-manager 4.92%
   chess-rs 3.87%
   aoc2024 2.48%
@@ -176,8 +176,8 @@ Assembly 1.95%
   h 1.45%
   apps-asm 0.50%
 
-PowerShell 1.21%
-  powershell 1.21%
+PowerShell 1.20%
+  powershell 1.20%
 
 GLSL 1.12%
   cava 1.12%
