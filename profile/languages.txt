@@ -1,6 +1,6 @@
-C++ 24.12%
+C++ 24.13%
   vne 8.74%
-  goon 8.13%
+  goon 8.14%
   oop 1.98%
   apps-cuda 1.47%
   alg-project 0.81%
@@ -17,7 +17,7 @@ Rust 23.59%
   dotfile-manager 4.92%
   chess-rs 3.87%
   aoc2024 2.48%
-  ordinal-type 2.25%
+  ordinal-type 2.24%
   hlang 1.50%
   leetcode 1.12%
   pulseWM 1.06%
@@ -50,7 +50,7 @@ Rust 23.59%
   tge 0.00%
   waypulse 0.00%
 
-C 13.72%
+C 13.71%
   tetris 7.41%
   upr 3.22%
   h 2.65%
