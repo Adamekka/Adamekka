@@ -163,7 +163,7 @@ Svelte 2.21%
   bleu 0.01%
 
 Nix 1.96%
-  nixos 1.28%
+  nixos 1.29%
   apps-cuda 0.18%
   vne 0.11%
   krumpatch 0.09%
