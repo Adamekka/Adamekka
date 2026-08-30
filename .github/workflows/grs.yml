@@ -14,7 +14,7 @@ jobs:
 
     env:
       STATS_EXCLUDED_REPOS: Anomalous-Coffee-Machine,Assassin-s-Creed,BLACK-SOULS,CorpseParty,cult-of-the-lamb,DELTARUNE,DevilMayCry,Dolphin,DuckStation,Gopher64,LordOfTheMysteriesLN,MiSideFull,MonogatariLN,MushokuTenseiLN,nunholy,omori,omori_old,PCSX2,PPSSPP,RetroArch,ReZeroLN,RPCS3,SaveScummer,shadPS4,TheBook
-      TOP_LANGS_EXCLUDED_REPOS: apps-mcu-lcd,DiscordTheme,ds-project,dungeon-looter,dwm,fish,java2,mpv,notes,nur-packages,nur-packages-old,nvim,nvim-old,opencode,pebor-nvim,SecureVPN,skj,skj-project,spins-backend,spins-frontend,st,std,stoneblock-cpp,uro,uro-project,usage,usage-old
+      TOP_LANGS_EXCLUDED_REPOS: apps-mcu-lcd,DiscordTheme,ds-project,dungeon-looter,dwm,fish,java2,learn-jap,mpv,notes,nur-packages,nur-packages-old,nvim,nvim-old,opencode,pebor-nvim,SecureVPN,skj,skj-project,spins-backend,spins-frontend,st,std,stoneblock-cpp,uro,uro-project,usage,usage-old
 
     permissions:
       contents: write
