@@ -94,14 +94,13 @@ export function generateLanguageOutputs({
     return left === right ? 0 : left < right ? -1 : 1;
   }
 
-  const languages = [...languageMap.values()]
-    .sort(
-      (left, right) =>
-        right.bytes - left.bytes || compareNames(left.name, right.name),
-    )
-    .slice(0, languageLimit);
+  const allLanguages = [...languageMap.values()].sort(
+    (left, right) =>
+      right.bytes - left.bytes || compareNames(left.name, right.name),
+  );
+  const languages = allLanguages.slice(0, languageLimit);
 
-  if (languages.length === 0) {
+  if (allLanguages.length === 0) {
     throw new Error("GitHub returned no language data for included repositories");
   }
 
@@ -109,12 +108,16 @@ export function generateLanguageOutputs({
     (sum, language) => sum + language.bytes,
     0,
   );
+  const allLanguageBytes = allLanguages.reduce(
+    (sum, language) => sum + language.bytes,
+    0,
+  );
 
-  function formatPercentage(bytes) {
-    return `${((bytes / totalBytes) * 100).toFixed(2)}%`;
+  function formatPercentage(bytes, denominator) {
+    return `${((bytes / denominator) * 100).toFixed(2)}%`;
   }
 
-  const text = `${languages
+  const text = `${allLanguages
     .map((language) => {
       const projects = language.projects
         .toSorted(
@@ -123,10 +126,10 @@ export function generateLanguageOutputs({
         )
         .map(
           (project) =>
-            `  ${project.name} ${formatPercentage(project.bytes)}`,
+            `  ${project.name} ${formatPercentage(project.bytes, allLanguageBytes)}`,
         )
         .join("\n");
-      return `${language.name} ${formatPercentage(language.bytes)}\n${projects}`;
+      return `${language.name} ${formatPercentage(language.bytes, allLanguageBytes)}\n${projects}`;
     })
     .join("\n\n")}\n`;
 

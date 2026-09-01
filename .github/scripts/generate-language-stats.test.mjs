@@ -15,7 +15,7 @@ function repository(name, languages) {
   };
 }
 
-test("uses one top-language denominator for the card and project contributions", () => {
+test("limits the card while listing every language in the text output", () => {
   const { languages, svg, text } = generateLanguageOutputs({
     repositories: [
       repository("Alpha", {
@@ -45,12 +45,16 @@ test("uses one top-language denominator for the card and project contributions",
   assert.equal(
     text,
     [
-      "C++ 66.67%",
-      "  beta 50.00%",
-      "  Alpha 16.67%",
+      "C++ 57.14%",
+      "  beta 42.86%",
+      "  Alpha 14.29%",
       "",
-      "C 33.33%",
-      "  beta 33.33%",
+      "C 28.57%",
+      "  beta 28.57%",
+      "",
+      "Rust 14.29%",
+      "  Alpha 7.14%",
+      "  beta 7.14%",
       "",
     ].join("\n"),
   );
