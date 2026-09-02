@@ -13,70 +13,70 @@
     <svg data-testid="lang-items" x="25">
         <g transform="translate(0, 0)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">C++</text>
-          <text x="215" y="34" class="lang-name">25.00%</text>
+          <text x="215" y="34" class="lang-name">25.07%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="24.998104686298504%">
+            <svg data-testid="lang-progress" width="25.066883796673256%">
               <rect rx="5" ry="5" width="205" height="8" fill="#f34b7d" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 40)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">Rust</text>
-          <text x="215" y="34" class="lang-name">24.44%</text>
+          <text x="215" y="34" class="lang-name">24.42%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="24.439167650424732%">
+            <svg data-testid="lang-progress" width="24.41675616065817%">
               <rect rx="5" ry="5" width="205" height="8" fill="#dea584" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 80)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">C</text>
-          <text x="215" y="34" class="lang-name">14.21%</text>
+          <text x="215" y="34" class="lang-name">14.20%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="14.208354542796183%">
+            <svg data-testid="lang-progress" width="14.195325032258413%">
               <rect rx="5" ry="5" width="205" height="8" fill="#555555" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 120)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">Typst</text>
-          <text x="215" y="34" class="lang-name">4.11%</text>
+          <text x="215" y="34" class="lang-name">4.10%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="4.108588839670901%">
+            <svg data-testid="lang-progress" width="4.104821133746854%">
               <rect rx="5" ry="5" width="205" height="8" fill="#239dad" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 160)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">Java</text>
-          <text x="215" y="34" class="lang-name">3.90%</text>
+          <text x="215" y="34" class="lang-name">3.89%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="3.897125982404269%">
+            <svg data-testid="lang-progress" width="3.8935521946090805%">
               <rect rx="5" ry="5" width="205" height="8" fill="#b07219" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 200)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">Swift</text>
-          <text x="215" y="34" class="lang-name">3.79%</text>
+          <text x="215" y="34" class="lang-name">3.78%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="3.7880100650182853%">
+            <svg data-testid="lang-progress" width="3.7845363399707668%">
               <rect rx="5" ry="5" width="205" height="8" fill="#F05138" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 240)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">C#</text>
-          <text x="215" y="34" class="lang-name">3.72%</text>
+          <text x="215" y="34" class="lang-name">3.71%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="3.7158076382947227%">
+            <svg data-testid="lang-progress" width="3.712400125156333%">
               <rect rx="5" ry="5" width="205" height="8" fill="#7355dd" />
             </svg>
           </svg>
@@ -86,7 +86,7 @@
           <text x="215" y="34" class="lang-name">2.99%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="2.9932418528586746%">
+            <svg data-testid="lang-progress" width="2.9904969554008836%">
               <rect rx="5" ry="5" width="205" height="8" fill="#89e051" />
             </svg>
           </svg>
@@ -96,17 +96,17 @@
           <text x="215" y="34" class="lang-name">2.37%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="2.370766681468164%">
+            <svg data-testid="lang-progress" width="2.3685926134319435%">
               <rect rx="5" ry="5" width="205" height="8" fill="#355570" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 360)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">CSS</text>
-          <text x="215" y="34" class="lang-name">2.15%</text>
+          <text x="215" y="34" class="lang-name">2.14%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="2.146848905591717%">
+            <svg data-testid="lang-progress" width="2.14488017723868%">
               <rect rx="5" ry="5" width="205" height="8" fill="#663399" />
             </svg>
           </svg>
@@ -116,7 +116,7 @@
           <text x="215" y="34" class="lang-name">2.03%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="2.03340084260232%">
+            <svg data-testid="lang-progress" width="2.0315361497115%">
               <rect rx="5" ry="5" width="205" height="8" fill="#7e7eff" />
             </svg>
           </svg>
@@ -126,7 +126,7 @@
           <text x="215" y="34" class="lang-name">2.02%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="2.0197726345582474%">
+            <svg data-testid="lang-progress" width="2.017920439165276%">
               <rect rx="5" ry="5" width="205" height="8" fill="#6E4C13" />
             </svg>
           </svg>
@@ -136,7 +136,7 @@
           <text x="215" y="34" class="lang-name">1.84%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="1.8421546648182845%">
+            <svg data-testid="lang-progress" width="1.8404653507217676%">
               <rect rx="5" ry="5" width="205" height="8" fill="#ff3e00" />
             </svg>
           </svg>
@@ -146,7 +146,7 @@
           <text x="215" y="34" class="lang-name">1.25%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="1.2481091989501767%">
+            <svg data-testid="lang-progress" width="1.2469646433360115%">
               <rect rx="5" ry="5" width="205" height="8" fill="#012456" />
             </svg>
           </svg>
@@ -156,37 +156,37 @@
           <text x="215" y="34" class="lang-name">1.16%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="1.1625493232827555%">
+            <svg data-testid="lang-progress" width="1.161483228780907%">
               <rect rx="5" ry="5" width="205" height="8" fill="#5686a5" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 600)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">Haskell</text>
-          <text x="215" y="34" class="lang-name">1.16%</text>
+          <text x="215" y="34" class="lang-name">1.15%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="1.155870598810826%">
+            <svg data-testid="lang-progress" width="1.1548106289105717%">
               <rect rx="5" ry="5" width="205" height="8" fill="#5e5086" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 640)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">CMake</text>
-          <text x="215" y="34" class="lang-name">1.07%</text>
+          <text x="215" y="34" class="lang-name">1.06%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="1.0652565532727556%">
+            <svg data-testid="lang-progress" width="1.064279679318457%">
               <rect rx="5" ry="5" width="205" height="8" fill="#DA3434" />
             </svg>
           </svg>
         </g>
         <g transform="translate(0, 680)">
           <text data-testid="lang-name" x="2" y="15" class="lang-name">Cuda</text>
-          <text x="215" y="34" class="lang-name">1.02%</text>
+          <text x="215" y="34" class="lang-name">1.01%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="1.0152563727666886%">
+            <svg data-testid="lang-progress" width="1.0143253505594614%">
               <rect rx="5" ry="5" width="205" height="8" fill="#3A4E3A" />
             </svg>
           </svg>
@@ -196,7 +196,7 @@
           <text x="215" y="34" class="lang-name">0.90%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="0.8973859111404735%">
+            <svg data-testid="lang-progress" width="0.8965629798748977%">
               <rect rx="5" ry="5" width="205" height="8" fill="#f1e05a" />
             </svg>
           </svg>
@@ -206,7 +206,7 @@
           <text x="215" y="34" class="lang-name">0.89%</text>
           <svg width="205" x="0" y="25">
             <rect data-testid="progress-background" rx="5" ry="5" width="205" height="8" fill="#ddd" />
-            <svg data-testid="lang-progress" width="0.8942270549713176%">
+            <svg data-testid="lang-progress" width="0.8934070204767663%">
               <rect rx="5" ry="5" width="205" height="8" fill="#427819" />
             </svg>
           </svg>
