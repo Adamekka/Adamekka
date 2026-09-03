@@ -1,7 +1,7 @@
-C++ 24.23%
-  vne 8.74%
-  goon 8.24%
-  oop 1.98%
+C++ 24.20%
+  vne 8.73%
+  goon 8.23%
+  oop 1.97%
   apps-cuda 1.47%
   alg-project 0.81%
   alg2-project-6 0.74%
@@ -13,11 +13,11 @@ C++ 24.23%
   codewars 0.16%
   SDL2test 0.13%
 
-Rust 23.60%
+Rust 23.58%
   dotfile-manager 4.92%
   chess-rs 3.87%
   aoc2024 2.48%
-  ordinal-type 2.25%
+  ordinal-type 2.24%
   hlang 1.50%
   leetcode 1.12%
   pulseWM 1.06%
@@ -29,7 +29,7 @@ Rust 23.60%
   save-history 0.55%
   wshm 0.46%
   deepl-translate 0.31%
-  swi 0.31%
+  swi 0.30%
   bevy-fps-counter 0.27%
   mpr-rs 0.19%
   bullets-vs-bullets-rs 0.18%
@@ -50,9 +50,9 @@ Rust 23.60%
   tge 0.00%
   waypulse 0.00%
 
-C 13.72%
-  tetris 7.41%
-  upr 3.23%
+C 13.71%
+  tetris 7.40%
+  upr 3.22%
   h 2.65%
   apps-asm 0.29%
   codewars 0.09%
@@ -61,7 +61,7 @@ C 13.72%
   pulseWM_C 0.00%
   BulletsVsBullets 0.00%
 
-Typst 3.97%
+Typst 3.96%
   TheBook 1.67%
   swi 0.54%
   dim-project 0.52%
@@ -76,7 +76,7 @@ Java 3.76%
   hytale-adamekka-mods 0.31%
   codewars 0.05%
 
-Swift 3.66%
+Swift 3.65%
   swift-calc 1.12%
   NotesUIKit 0.79%
   yet-another-notes-app 0.52%
@@ -86,7 +86,7 @@ Swift 3.66%
   codewars 0.12%
   ViewKit 0.03%
 
-C# 3.59%
+C# 3.58%
   prg-maturita 2.22%
   AdventureGame 0.72%
   jumping-shapes 0.60%
@@ -138,12 +138,12 @@ CSS 2.07%
   tower-of-hanoi 0.01%
 
 Nix 1.96%
-  nixos 1.29%
+  nixos 1.28%
   apps-cuda 0.18%
   vne 0.11%
   krumpatch 0.09%
   dotfile-manager 0.09%
-  beeep 0.09%
+  beeep 0.08%
   wshm 0.07%
   mc 0.06%
 
@@ -159,8 +159,8 @@ Svelte 1.78%
   2048 0.10%
   bleu 0.01%
 
-PowerShell 1.21%
-  powershell 1.21%
+PowerShell 1.20%
+  powershell 1.20%
 
 GLSL 1.12%
   cava 1.12%
@@ -239,6 +239,9 @@ Python 0.41%
   mc 0.10%
   apps-cuda 0.07%
 
+Ruby 0.37%
+  homebrew-tap 0.37%
+
 Dockerfile 0.35%
   swift-chat 0.23%
   mpr-install 0.09%
@@ -246,9 +249,6 @@ Dockerfile 0.35%
 
 Batchfile 0.29%
   powershell 0.29%
-
-Ruby 0.26%
-  homebrew-tap 0.26%
 
 PLSQL 0.23%
   dbs-maturita 0.23%
