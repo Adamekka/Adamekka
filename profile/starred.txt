@@ -21,32 +21,34 @@ fish (3)
   Suston
 
 mpr-install (3)
-  [3 stargazer usernames unavailable while archived]
+  TomixUG
+  [2 stargazer usernames unavailable while archived]
 
 dotfile-manager (2)
-  [2 stargazer usernames unavailable while archived]
+  Yachim
+  [1 stargazer username unavailable while archived]
 
 waybar (2)
   cjrusko
   greenm01
 
 chess-rs (1)
-  [1 stargazer username unavailable while archived]
+  Schaffn
 
 goon (1)
   LPbigFish
 
 luminexia (1)
-  [1 stargazer username unavailable while archived]
+  Boyquotes
 
 pulseWM (1)
-  [1 stargazer username unavailable while archived]
+  andOrlando
 
 usage (1)
   OndrejKanak
 
 vne (1)
-  [1 stargazer username unavailable while archived]
+  fpeterek
 
 whenthe (1)
   TomixUG
