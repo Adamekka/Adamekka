@@ -13,7 +13,7 @@ C++ 24.20%
   codewars 0.16%
   SDL2test 0.13%
 
-Rust 23.58%
+Rust 23.57%
   dotfile-manager 4.92%
   chess-rs 3.87%
   aoc2024 2.48%
@@ -137,7 +137,7 @@ CSS 2.07%
   blog 0.01%
   tower-of-hanoi 0.01%
 
-Nix 1.96%
+Nix 1.97%
   nixos 1.29%
   apps-cuda 0.18%
   vne 0.11%
@@ -165,7 +165,7 @@ PowerShell 1.20%
 GLSL 1.12%
   cava 1.12%
 
-Haskell 1.12%
+Haskell 1.11%
   xmonad 0.58%
   haskell 0.42%
   xmobar 0.12%
