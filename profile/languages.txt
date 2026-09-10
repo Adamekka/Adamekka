@@ -50,7 +50,7 @@ Rust 23.57%
   tge 0.00%
   waypulse 0.00%
 
-C 13.71%
+C 13.70%
   tetris 7.40%
   upr 3.22%
   h 2.65%
@@ -79,7 +79,7 @@ Java 3.76%
 Swift 3.65%
   swift-calc 1.12%
   NotesUIKit 0.79%
-  yet-another-notes-app 0.52%
+  yet-another-notes-app 0.51%
   FlashCards 0.48%
   SaveHistory 0.32%
   swift-chat 0.28%
@@ -93,7 +93,7 @@ C# 3.58%
   win-forms-test-1 0.05%
 
 Shell 2.89%
-  mpr-install 1.04%
+  mpr-install 1.03%
   school-bash 0.94%
   BulletsVsBullets 0.16%
   whenthe 0.16%
@@ -124,7 +124,7 @@ GDScript 2.29%
   AstroExtract 0.29%
   luminexia 0.20%
   survive 0.14%
-  MagicSpellsAndMonsters 0.05%
+  MagicSpellsAndMonsters 0.04%
 
 CSS 2.07%
   tamz 0.97%
@@ -170,10 +170,10 @@ Haskell 1.11%
   haskell 0.42%
   xmobar 0.12%
 
-CMake 1.03%
+CMake 1.05%
   vne 0.23%
+  goon 0.23%
   oop 0.22%
-  goon 0.20%
   krumpatch 0.08%
   tetris 0.07%
   mc 0.07%
