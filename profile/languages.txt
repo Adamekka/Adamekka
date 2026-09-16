@@ -1,9 +1,9 @@
-C++ 24.19%
-  vne 8.72%
+C++ 24.21%
+  vne 8.73%
   goon 8.23%
   oop 1.97%
   apps-cuda 1.47%
-  alg-project 0.80%
+  alg-project 0.81%
   alg2-project-6 0.74%
   smart-light-mcu 0.55%
   oop-project 0.52%
@@ -13,8 +13,8 @@ C++ 24.19%
   codewars 0.16%
   SDL2test 0.13%
 
-Rust 23.56%
-  dotfile-manager 4.91%
+Rust 23.58%
+  dotfile-manager 4.92%
   chess-rs 3.87%
   aoc2024 2.48%
   ordinal-type 2.24%
@@ -23,7 +23,7 @@ Rust 23.56%
   pulseWM 1.06%
   aoc2015 0.95%
   phoenix-script 0.80%
-  BulletsVsBullets 0.68%
+  BulletsVsBullets 0.69%
   mytools 0.61%
   stoneblock 0.61%
   save-history 0.55%
@@ -50,10 +50,10 @@ Rust 23.56%
   tge 0.00%
   waypulse 0.00%
 
-C 13.70%
+C 13.71%
   tetris 7.40%
   upr 3.22%
-  h 2.64%
+  h 2.65%
   apps-asm 0.29%
   codewars 0.09%
   MIT_T3A 0.04%
@@ -79,21 +79,21 @@ Java 3.76%
 Swift 3.65%
   swift-calc 1.12%
   NotesUIKit 0.79%
-  yet-another-notes-app 0.51%
+  yet-another-notes-app 0.52%
   FlashCards 0.48%
-  SaveHistory 0.31%
+  SaveHistory 0.32%
   swift-chat 0.28%
   codewars 0.12%
   ViewKit 0.03%
 
 C# 3.58%
-  prg-maturita 2.21%
-  AdventureGame 0.71%
+  prg-maturita 2.22%
+  AdventureGame 0.72%
   jumping-shapes 0.60%
   win-forms-test-1 0.05%
 
 Shell 2.89%
-  mpr-install 1.03%
+  mpr-install 1.04%
   school-bash 0.94%
   BulletsVsBullets 0.16%
   whenthe 0.16%
@@ -124,7 +124,7 @@ GDScript 2.29%
   AstroExtract 0.29%
   luminexia 0.20%
   survive 0.14%
-  MagicSpellsAndMonsters 0.04%
+  MagicSpellsAndMonsters 0.05%
 
 CSS 2.07%
   tamz 0.97%
@@ -149,7 +149,7 @@ Nix 2.02%
 
 Assembly 1.95%
   h 1.45%
-  apps-asm 0.49%
+  apps-asm 0.50%
 
 Svelte 1.78%
   tamz 0.81%
@@ -165,7 +165,7 @@ PowerShell 1.20%
 GLSL 1.12%
   cava 1.12%
 
-Haskell 1.11%
+Haskell 1.12%
   xmonad 0.58%
   haskell 0.42%
   xmobar 0.12%
@@ -185,7 +185,7 @@ CMake 1.05%
 Cuda 0.98%
   apps-cuda 0.98%
 
-JavaScript 0.86%
+JavaScript 0.87%
   tower-of-hanoi 0.34%
   status 0.22%
   tamz 0.09%
@@ -208,7 +208,7 @@ Makefile 0.86%
   asf-start 0.02%
   whenthe 0.01%
 
-HTML 0.71%
+HTML 0.72%
   blog 0.21%
   SaveScummer 0.18%
   EdiblesSite 0.13%
@@ -239,9 +239,6 @@ Python 0.41%
   mc 0.10%
   apps-cuda 0.07%
 
-Ruby 0.37%
-  homebrew-tap 0.37%
-
 Dockerfile 0.35%
   swift-chat 0.23%
   mpr-install 0.09%
@@ -249,6 +246,9 @@ Dockerfile 0.35%
 
 Batchfile 0.29%
   powershell 0.29%
+
+Ruby 0.28%
+  homebrew-tap 0.28%
 
 PLSQL 0.23%
   dbs-maturita 0.23%
