@@ -1,7 +1,7 @@
-C++ 24.21%
+C++ 24.20%
   vne 8.73%
-  goon 8.23%
-  oop 1.97%
+  goon 8.22%
+  oop 1.98%
   apps-cuda 1.47%
   alg-project 0.81%
   alg2-project-6 0.74%
@@ -51,7 +51,7 @@ Rust 23.58%
   waypulse 0.00%
 
 C 13.71%
-  tetris 7.40%
+  tetris 7.41%
   upr 3.22%
   h 2.65%
   apps-asm 0.29%
@@ -76,7 +76,7 @@ Java 3.76%
   hytale-adamekka-mods 0.31%
   codewars 0.05%
 
-Swift 3.65%
+Swift 3.66%
   swift-calc 1.12%
   NotesUIKit 0.79%
   yet-another-notes-app 0.52%
@@ -86,7 +86,7 @@ Swift 3.65%
   codewars 0.12%
   ViewKit 0.03%
 
-C# 3.58%
+C# 3.59%
   prg-maturita 2.22%
   AdventureGame 0.72%
   jumping-shapes 0.60%
