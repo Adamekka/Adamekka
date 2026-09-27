@@ -1,4 +1,4 @@
-C++ 25.68%
+C++ 25.67%
   vne 8.53%
   goon 8.02%
   zpg 1.99%
@@ -52,7 +52,7 @@ Rust 23.02%
   tge 0.00%
   waypulse 0.00%
 
-C 13.39%
+C 13.38%
   tetris 7.23%
   upr 3.15%
   h 2.58%
@@ -140,8 +140,8 @@ CSS 2.02%
   blog 0.01%
   tower-of-hanoi 0.01%
 
-Nix 1.97%
-  nixos 1.31%
+Nix 1.99%
+  nixos 1.33%
   apps-cuda 0.17%
   vne 0.10%
   krumpatch 0.09%
