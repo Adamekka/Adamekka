@@ -1,4 +1,4 @@
-C++ 25.77%
+C++ 25.78%
   vne 8.50%
   goon 8.00%
   zpg 1.98%
@@ -138,10 +138,10 @@ CSS 2.02%
   dotfile-manager 0.03%
   bleu 0.02%
   blog 0.01%
-  tower-of-hanoi 0.00%
+  tower-of-hanoi 0.01%
 
-Nix 1.98%
-  nixos 1.32%
+Nix 1.96%
+  nixos 1.30%
   apps-cuda 0.17%
   vne 0.10%
   krumpatch 0.09%
@@ -172,7 +172,7 @@ CMake 1.17%
   zpg 0.14%
   krumpatch 0.07%
   tetris 0.07%
-  mc 0.06%
+  mc 0.07%
   alg-project 0.05%
   alg2-project 0.05%
   oop-project 0.04%
