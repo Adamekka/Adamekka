@@ -1,42 +1,42 @@
-C++ 28.19%
-  vne 8.22%
-  goon 7.74%
-  zpg 5.18%
-  oop 1.86%
-  apps-cuda 1.38%
-  alg-project 0.76%
-  alg2-project-6 0.70%
-  smart-light-mcu 0.52%
+C++ 27.90%
+  vne 8.14%
+  goon 7.66%
+  zpg 5.12%
+  oop 1.84%
+  apps-cuda 1.37%
+  alg-project 0.75%
+  alg2-project-6 0.69%
+  smart-light-mcu 0.51%
   oop-project 0.49%
   alg2-project 0.38%
   mc 0.24%
   osy 0.23%
   krumpatch 0.21%
-  codewars 0.16%
+  codewars 0.15%
   SDL2test 0.12%
 
-Rust 22.20%
-  dotfile-manager 4.63%
-  chess-rs 3.64%
-  aoc2024 2.33%
-  ordinal-type 2.11%
-  hlang 1.41%
-  leetcode 1.05%
-  pulseWM 1.00%
-  aoc2015 0.90%
-  phoenix-script 0.75%
-  BulletsVsBullets 0.65%
-  mytools 0.58%
+Rust 21.97%
+  dotfile-manager 4.58%
+  chess-rs 3.60%
+  aoc2024 2.31%
+  ordinal-type 2.09%
+  hlang 1.40%
+  leetcode 1.04%
+  pulseWM 0.99%
+  aoc2015 0.89%
+  phoenix-script 0.74%
+  BulletsVsBullets 0.64%
+  mytools 0.57%
   stoneblock 0.57%
   save-history 0.52%
-  wshm 0.44%
+  wshm 0.43%
   deepl-translate 0.29%
-  swi 0.29%
+  swi 0.28%
   bevy-fps-counter 0.25%
   mpr-rs 0.18%
   bullets-vs-bullets-rs 0.17%
   aoc2025 0.13%
-  asgrl 0.13%
+  asgrl 0.12%
   AdventOfCode 0.10%
   bleu 0.02%
   tauri-test 0.02%
@@ -52,10 +52,10 @@ Rust 22.20%
   tge 0.00%
   waypulse 0.00%
 
-C 12.91%
-  tetris 6.97%
-  upr 3.03%
-  h 2.49%
+C 12.77%
+  tetris 6.90%
+  upr 3.00%
+  h 2.47%
   apps-asm 0.27%
   codewars 0.08%
   MIT_T3A 0.04%
@@ -63,40 +63,40 @@ C 12.91%
   pulseWM_C 0.00%
   BulletsVsBullets 0.00%
 
-Typst 3.73%
-  TheBook 1.57%
-  swi 0.51%
-  dim-project 0.49%
-  SaveScummer 0.45%
+Typst 3.69%
+  TheBook 1.56%
+  swi 0.50%
+  dim-project 0.48%
+  SaveScummer 0.44%
   apps-zkouska 0.39%
   pos-projekt 0.32%
 
-Java 3.54%
-  bullet-hell 2.50%
+Java 3.50%
+  bullet-hell 2.48%
   customcommands 0.38%
   pingpongchat 0.31%
   hytale-adamekka-mods 0.29%
   codewars 0.05%
 
-Swift 3.44%
-  swift-calc 1.05%
-  NotesUIKit 0.75%
-  yet-another-notes-app 0.49%
-  FlashCards 0.46%
-  SaveHistory 0.30%
+Swift 3.40%
+  swift-calc 1.04%
+  NotesUIKit 0.74%
+  yet-another-notes-app 0.48%
+  FlashCards 0.45%
+  SaveHistory 0.29%
   swift-chat 0.26%
   codewars 0.11%
   ViewKit 0.03%
 
-C# 3.37%
-  prg-maturita 2.09%
+C# 3.34%
+  prg-maturita 2.07%
   AdventureGame 0.67%
-  jumping-shapes 0.57%
+  jumping-shapes 0.56%
   win-forms-test-1 0.05%
 
-Shell 2.81%
-  mpr-install 0.97%
-  school-bash 0.88%
+Shell 2.78%
+  mpr-install 0.96%
+  school-bash 0.87%
   BulletsVsBullets 0.15%
   whenthe 0.15%
   scripts 0.09%
@@ -121,16 +121,16 @@ Shell 2.81%
   dotfile-manager 0.01%
   Game 0.00%
 
-GDScript 2.15%
-  bullet-hell-game 0.84%
-  bullets-vs-bullets 0.68%
-  AstroExtract 0.28%
+GDScript 2.13%
+  bullet-hell-game 0.83%
+  bullets-vs-bullets 0.67%
+  AstroExtract 0.27%
   luminexia 0.19%
   survive 0.13%
   MagicSpellsAndMonsters 0.04%
 
-CSS 1.95%
-  tamz 0.91%
+CSS 1.93%
+  tamz 0.90%
   waybar 0.66%
   gameoflife 0.11%
   2048 0.11%
@@ -140,8 +140,8 @@ CSS 1.95%
   blog 0.01%
   tower-of-hanoi 0.00%
 
-Nix 1.89%
-  nixos 1.26%
+Nix 1.88%
+  nixos 1.24%
   apps-cuda 0.17%
   vne 0.10%
   krumpatch 0.08%
@@ -150,28 +150,28 @@ Nix 1.89%
   wshm 0.07%
   mc 0.05%
 
-Assembly 1.83%
-  h 1.37%
-  apps-asm 0.47%
+Assembly 1.82%
+  h 1.35%
+  apps-asm 0.46%
 
-Svelte 1.67%
-  tamz 0.76%
+Svelte 1.66%
+  tamz 0.75%
   dotfile-manager 0.43%
-  jumping-shapes-asset-creator 0.28%
+  jumping-shapes-asset-creator 0.27%
   gameoflife 0.10%
   2048 0.10%
   bleu 0.01%
 
-PowerShell 1.13%
-  powershell 1.13%
+PowerShell 1.12%
+  powershell 1.12%
 
-GLSL 1.13%
-  cava 1.06%
+GLSL 1.12%
+  cava 1.04%
   zpg 0.07%
 
-CMake 1.13%
-  vne 0.22%
-  goon 0.22%
+CMake 1.12%
+  vne 0.21%
+  goon 0.21%
   oop 0.20%
   zpg 0.14%
   krumpatch 0.07%
@@ -182,13 +182,16 @@ CMake 1.13%
   oop-project 0.04%
   alg2-project-6 0.01%
 
-Haskell 1.05%
+Haskell 1.04%
   xmonad 0.54%
   haskell 0.39%
-  xmobar 0.12%
+  xmobar 0.11%
 
-Makefile 0.93%
-  h 0.25%
+Kotlin 1.04%
+  tamz2 1.04%
+
+Makefile 0.92%
+  h 0.24%
   apps-cuda 0.24%
   osy 0.12%
   apps-asm 0.12%
@@ -199,15 +202,15 @@ Makefile 0.93%
   asf-start 0.02%
   whenthe 0.01%
 
-Cuda 0.92%
-  apps-cuda 0.92%
+Cuda 0.91%
+  apps-cuda 0.91%
 
-JavaScript 0.82%
+JavaScript 0.81%
   tower-of-hanoi 0.32%
-  status 0.21%
+  status 0.20%
   tamz 0.08%
   jumping-shapes-asset-creator 0.07%
-  EdiblesSite 0.05%
+  EdiblesSite 0.04%
   codewars 0.02%
   bleu 0.02%
   2048 0.02%
@@ -216,7 +219,7 @@ JavaScript 0.82%
 
 HTML 0.67%
   blog 0.20%
-  SaveScummer 0.17%
+  SaveScummer 0.16%
   EdiblesSite 0.12%
   dotfile-manager 0.04%
   2048 0.03%
@@ -240,7 +243,7 @@ TypeScript 0.48%
 Lua 0.40%
   hypr 0.40%
 
-Python 0.39%
+Python 0.38%
   alg2-project 0.23%
   mc 0.09%
   apps-cuda 0.07%
@@ -257,8 +260,8 @@ Batchfile 0.27%
 Ruby 0.26%
   homebrew-tap 0.26%
 
-PLSQL 0.22%
-  dbs-maturita 0.22%
+PLSQL 0.21%
+  dbs-maturita 0.21%
 
 Brainfuck 0.07%
   brainfuck-examples 0.07%
