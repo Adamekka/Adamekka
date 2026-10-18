@@ -144,8 +144,8 @@ CSS 1.83%
   blog 0.01%
   tower-of-hanoi 0.00%
 
-Nix 1.77%
-  nixos 1.18%
+Nix 1.78%
+  nixos 1.19%
   apps-cuda 0.16%
   vne 0.09%
   krumpatch 0.08%
