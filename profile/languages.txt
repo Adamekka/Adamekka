@@ -1,8 +1,8 @@
-C++ 34.02%
-  zpg 8.19%
-  vne 7.02%
-  goon 6.61%
-  osy 6.37%
+C++ 33.97%
+  zpg 8.18%
+  vne 7.01%
+  goon 6.60%
+  osy 6.36%
   oop 1.59%
   apps-cuda 1.18%
   alg-project 0.65%
@@ -15,8 +15,8 @@ C++ 34.02%
   codewars 0.13%
   SDL2test 0.11%
 
-Rust 18.96%
-  dotfile-manager 3.96%
+Rust 18.93%
+  dotfile-manager 3.95%
   chess-rs 3.11%
   aoc2024 1.99%
   ordinal-type 1.80%
@@ -31,7 +31,7 @@ Rust 18.96%
   save-history 0.45%
   wshm 0.37%
   deepl-translate 0.25%
-  swi 0.25%
+  swi 0.24%
   bevy-fps-counter 0.22%
   mpr-rs 0.16%
   bullets-vs-bullets-rs 0.15%
@@ -52,7 +52,7 @@ Rust 18.96%
   tge 0.00%
   waypulse 0.00%
 
-C 11.02%
+C 11.01%
   tetris 5.95%
   upr 2.59%
   h 2.13%
@@ -72,9 +72,9 @@ GDScript 3.39%
   survive 0.11%
   MagicSpellsAndMonsters 0.04%
 
-Typst 3.19%
+Typst 3.18%
   TheBook 1.34%
-  swi 0.44%
+  swi 0.43%
   dim-project 0.42%
   SaveScummer 0.38%
   apps-zkouska 0.33%
@@ -87,7 +87,7 @@ Java 3.02%
   hytale-adamekka-mods 0.25%
   codewars 0.04%
 
-Swift 2.94%
+Swift 2.93%
   swift-calc 0.90%
   NotesUIKit 0.64%
   yet-another-notes-app 0.41%
@@ -99,8 +99,8 @@ Swift 2.94%
 
 C# 2.88%
   prg-maturita 1.78%
-  AdventureGame 0.58%
-  jumping-shapes 0.49%
+  AdventureGame 0.57%
+  jumping-shapes 0.48%
   win-forms-test-1 0.04%
 
 Shell 2.42%
@@ -133,7 +133,17 @@ Shell 2.42%
 Kotlin 1.91%
   tamz2 1.91%
 
-CSS 1.67%
+Nix 1.77%
+  nixos 1.23%
+  apps-cuda 0.14%
+  vne 0.09%
+  krumpatch 0.07%
+  dotfile-manager 0.07%
+  beeep 0.07%
+  wshm 0.06%
+  mc 0.04%
+
+CSS 1.66%
   tamz 0.78%
   waybar 0.57%
   gameoflife 0.09%
@@ -144,17 +154,7 @@ CSS 1.67%
   blog 0.01%
   tower-of-hanoi 0.00%
 
-Nix 1.63%
-  nixos 1.08%
-  apps-cuda 0.14%
-  vne 0.09%
-  krumpatch 0.07%
-  dotfile-manager 0.07%
-  beeep 0.07%
-  wshm 0.06%
-  mc 0.04%
-
-Assembly 1.57%
+Assembly 1.56%
   h 1.17%
   apps-asm 0.40%
 
@@ -166,7 +166,7 @@ Svelte 1.43%
   2048 0.08%
   bleu 0.01%
 
-GLSL 1.38%
+GLSL 1.37%
   cava 0.90%
   zpg 0.47%
 
@@ -183,7 +183,7 @@ Makefile 1.01%
   whenthe 0.01%
 
 CMake 0.98%
-  vne 0.19%
+  vne 0.18%
   goon 0.18%
   oop 0.17%
   zpg 0.13%
@@ -221,7 +221,7 @@ JavaScript 0.70%
 Ruby 0.65%
   homebrew-tap 0.65%
 
-HTML 0.58%
+HTML 0.57%
   blog 0.17%
   SaveScummer 0.14%
   EdiblesSite 0.11%
