@@ -32,6 +32,9 @@ waybar (2)
   cjrusko
   greenm01
 
+Adamekka (1)
+  boldotter921
+
 chess-rs (1)
   Schaffn
 
@@ -41,8 +44,14 @@ goon (1)
 luminexia (1)
   Boyquotes
 
+nur-packages (1)
+  boldotter921
+
 pulseWM (1)
   andOrlando
+
+re-map (1)
+  boldotter921
 
 usage (1)
   OndrejKanak
