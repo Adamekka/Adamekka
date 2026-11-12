@@ -1,4 +1,4 @@
-C++ 35.79%
+C++ 35.77%
   zpg 9.81%
   osy 7.10%
   vne 6.81%
@@ -53,7 +53,7 @@ Rust 18.39%
   waypulse 0.00%
 
 C 10.69%
-  tetris 5.78%
+  tetris 5.77%
   upr 2.51%
   h 2.06%
   apps-asm 0.22%
@@ -75,7 +75,7 @@ GDScript 3.29%
 Typst 3.09%
   TheBook 1.30%
   swi 0.42%
-  dim-project 0.41%
+  dim-project 0.40%
   SaveScummer 0.37%
   apps-zkouska 0.32%
   pos-projekt 0.27%
@@ -130,8 +130,8 @@ Shell 2.35%
   dotfile-manager 0.00%
   Game 0.00%
 
-Nix 1.77%
-  nixos 1.24%
+Nix 1.81%
+  nixos 1.28%
   apps-cuda 0.14%
   vne 0.08%
   krumpatch 0.07%
@@ -171,7 +171,7 @@ Svelte 1.39%
   bleu 0.01%
 
 Makefile 1.03%
-  osy 0.36%
+  osy 0.35%
   h 0.20%
   apps-cuda 0.20%
   apps-asm 0.10%
