@@ -15,11 +15,6 @@ bevy-fps-counter (3)
   Rust-Ninja-Sabi
   sprayman1999
 
-fish (3)
-  21tushar
-  MrAdikYT
-  Suston
-
 mpr-install (3)
   TomixUG
   [2 stargazer usernames unavailable while archived]
@@ -27,6 +22,10 @@ mpr-install (3)
 dotfile-manager (2)
   Yachim
   [1 stargazer username unavailable while archived]
+
+fish (2)
+  21tushar
+  Suston
 
 waybar (2)
   cjrusko
