@@ -1,31 +1,31 @@
-C++ 32.99%
-  zpg 9.87%
-  osy 6.32%
-  vne 6.06%
-  goon 5.71%
-  oop 1.37%
+C++ 33.28%
+  zpg 10.29%
+  osy 6.29%
+  vne 6.03%
+  goon 5.67%
+  oop 1.36%
   apps-cuda 1.02%
   alg-project 0.56%
-  alg2-project-6 0.52%
+  alg2-project-6 0.51%
   smart-light-mcu 0.38%
   oop-project 0.36%
   alg2-project 0.28%
-  mc 0.18%
-  krumpatch 0.16%
+  mc 0.17%
+  krumpatch 0.15%
   codewars 0.11%
   SDL2test 0.09%
 
-Rust 16.37%
-  dotfile-manager 3.42%
-  chess-rs 2.69%
-  aoc2024 1.72%
-  ordinal-type 1.56%
-  hlang 1.04%
-  leetcode 0.78%
+Rust 16.28%
+  dotfile-manager 3.40%
+  chess-rs 2.67%
+  aoc2024 1.71%
+  ordinal-type 1.55%
+  hlang 1.03%
+  leetcode 0.77%
   pulseWM 0.73%
   aoc2015 0.66%
   phoenix-script 0.55%
-  BulletsVsBullets 0.48%
+  BulletsVsBullets 0.47%
   mytools 0.42%
   stoneblock 0.42%
   save-history 0.38%
@@ -52,10 +52,10 @@ Rust 16.37%
   tge 0.00%
   waypulse 0.00%
 
-C 9.52%
-  tetris 5.14%
-  upr 2.24%
-  h 1.84%
+C 9.47%
+  tetris 5.11%
+  upr 2.22%
+  h 1.83%
   apps-asm 0.20%
   codewars 0.06%
   MIT_T3A 0.03%
@@ -63,18 +63,18 @@ C 9.52%
   pulseWM_C 0.00%
   BulletsVsBullets 0.00%
 
-Python 5.33%
-  mewgenics-mods 5.05%
+Python 5.31%
+  mewgenics-mods 5.02%
   alg2-project 0.17%
   mc 0.07%
   apps-cuda 0.05%
 
-TypeScript 3.91%
-  art 3.55%
+TypeScript 3.89%
+  art 3.53%
   dotfile-manager 0.08%
   tower-of-hanoi 0.08%
   config-files 0.05%
-  bleu 0.05%
+  bleu 0.04%
   tamz 0.04%
   2048 0.02%
   gameoflife 0.02%
@@ -82,8 +82,8 @@ TypeScript 3.91%
   tauri-test 0.01%
   battle-pass-calc 0.00%
 
-GDScript 2.93%
-  Havranov 1.34%
+GDScript 2.91%
+  Havranov 1.33%
   bullet-hell-game 0.62%
   bullets-vs-bullets 0.50%
   AstroExtract 0.20%
@@ -91,39 +91,39 @@ GDScript 2.93%
   survive 0.09%
   MagicSpellsAndMonsters 0.03%
 
-Typst 2.75%
-  TheBook 1.16%
-  swi 0.38%
+Typst 2.74%
+  TheBook 1.15%
+  swi 0.37%
   dim-project 0.36%
   SaveScummer 0.33%
   apps-zkouska 0.29%
   pos-projekt 0.24%
 
-Java 2.61%
-  bullet-hell 1.85%
+Java 2.60%
+  bullet-hell 1.84%
   customcommands 0.28%
   pingpongchat 0.23%
-  hytale-adamekka-mods 0.22%
+  hytale-adamekka-mods 0.21%
   codewars 0.04%
 
-Swift 2.54%
-  swift-calc 0.78%
+Swift 2.52%
+  swift-calc 0.77%
   NotesUIKit 0.55%
   yet-another-notes-app 0.36%
-  FlashCards 0.34%
+  FlashCards 0.33%
   SaveHistory 0.22%
   swift-chat 0.19%
   codewars 0.08%
   ViewKit 0.02%
 
-C# 2.49%
-  prg-maturita 1.54%
-  AdventureGame 0.50%
+C# 2.48%
+  prg-maturita 1.53%
+  AdventureGame 0.49%
   jumping-shapes 0.42%
   win-forms-test-1 0.03%
 
-Shell 2.41%
-  mpr-install 0.72%
+Shell 2.39%
+  mpr-install 0.71%
   school-bash 0.65%
   mewgenics-mods 0.31%
   BulletsVsBullets 0.11%
@@ -146,11 +146,11 @@ Shell 2.41%
   AstroExtract 0.01%
   MagicSpellsAndMonsters 0.01%
   asf-start 0.01%
-  discord-game-list 0.01%
+  discord-game-list 0.00%
   dotfile-manager 0.00%
   Game 0.00%
 
-Nix 1.61%
+Nix 1.60%
   nixos 1.14%
   apps-cuda 0.12%
   vne 0.07%
@@ -160,10 +160,10 @@ Nix 1.61%
   wshm 0.05%
   mc 0.04%
 
-Kotlin 1.48%
-  tamz2 1.48%
+Kotlin 1.47%
+  tamz2 1.47%
 
-CSS 1.44%
+CSS 1.43%
   tamz 0.67%
   waybar 0.49%
   gameoflife 0.08%
@@ -174,13 +174,13 @@ CSS 1.44%
   blog 0.01%
   tower-of-hanoi 0.00%
 
-Assembly 1.35%
-  h 1.01%
-  apps-asm 0.34%
+GLSL 1.40%
+  cava 0.77%
+  zpg 0.63%
 
-GLSL 1.33%
-  cava 0.78%
-  zpg 0.55%
+Assembly 1.35%
+  h 1.00%
+  apps-asm 0.34%
 
 Svelte 1.23%
   tamz 0.56%
@@ -190,8 +190,8 @@ Svelte 1.23%
   2048 0.07%
   bleu 0.00%
 
-Makefile 0.92%
-  osy 0.32%
+Makefile 0.91%
+  osy 0.31%
   h 0.18%
   apps-cuda 0.18%
   apps-asm 0.09%
@@ -215,11 +215,11 @@ CMake 0.85%
   oop-project 0.03%
   alg2-project-6 0.01%
 
-PowerShell 0.84%
-  powershell 0.84%
+PowerShell 0.83%
+  powershell 0.83%
 
-Astro 0.79%
-  art 0.79%
+Astro 0.78%
+  art 0.78%
 
 Haskell 0.77%
   xmonad 0.40%
@@ -245,7 +245,7 @@ Cuda 0.68%
 Ruby 0.56%
   homebrew-tap 0.56%
 
-HTML 0.50%
+HTML 0.49%
   blog 0.15%
   SaveScummer 0.12%
   EdiblesSite 0.09%
@@ -260,7 +260,7 @@ Dockerfile 0.35%
   swift-chat 0.16%
   osy 0.11%
   mpr-install 0.06%
-  dotfile-manager 0.02%
+  dotfile-manager 0.01%
 
 Lua 0.30%
   hypr 0.30%
